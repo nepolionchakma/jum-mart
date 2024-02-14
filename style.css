@@ -166,3 +166,53 @@ h3{
     margin: 0 80px;
     padding: 10px 0;
 }
+
+@media screen and (max-width:600px) {
+    .homeTabInner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hl{
+        width: 100%;
+    }
+    .hr{
+        width: 50%;
+        display: grid;
+        justify-content: center;
+    }
+    .clientReviews{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+    .rewiew{
+        width: 90%;
+        border-radius: 3px;
+    }
+}
+@media screen and (width:768px) {
+    .homeTabInner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hl{
+        width: 100%;
+    }
+    .hr{
+        padding: 20px 0;
+        width: 50%;
+    }
+    .clientReviews{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        
+    }
+    
+    .rewiew{
+        width: 70%;
+        border-radius: 3px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+}
