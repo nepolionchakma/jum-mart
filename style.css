@@ -75,8 +75,9 @@ p{
 button{
     background-color: #4CAF4F;
     color: white;
-    padding: 15px 50px;
+    padding: 10px 40px;
     border: none;
+    border-radius: 3px;
 }
 button a{
     text-decoration: none;
@@ -95,37 +96,41 @@ button a{
     border-radius: 50%;
     margin: 10px;
 }
-.login{
-    /* align-items: center; */
-    padding: 100px ;
-    width: 900px;
-    text-align: left;
-
-}
-.loginPage{
+.form-section{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
+.login{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 60%;
+    padding: 60px 0;
+}
+.form{
+    width: 100%;
+}
+
 .space{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .space2{
-    padding: 100px;
-    border-bottom: 2px solid gray;
+    padding: 50px 20px;
+    /* border-bottom: 2px solid gray; */
 }
 legend{
     font-weight: bold;
     color: #4CAF4F;
 }
 fieldset{
+    /* width: 50%; */
     border: 2px solid #4CAF4F;
 }
 input{
-    width: 500px;
     border: 2px solid #4CAF4F;
     padding: 10px;
     border-radius: 3px;
+    width: 95%;
 }
 /* clients */
 .reviews{
