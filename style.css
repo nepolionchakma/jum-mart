@@ -14,6 +14,7 @@ body{
 .primary{
     color: #4CAF4F !important;
 }
+/* Nav */
 nav {
     border-bottom: 2px solid white;
     box-shadow: 10px 10px 30px gray;
@@ -97,6 +98,7 @@ img{
 }
 .space2{
     padding: 100px;
+    border-bottom: 2px solid gray;
 }
 legend{
     font-weight: bold;
@@ -110,4 +112,37 @@ input{
     border: 2px solid #4CAF4F;
     padding: 10px;
     border-radius: 3px;
+}
+/* clients */
+.reviews{
+    padding: 30px 20px;
+}
+.rewiew{
+    width: 25%;
+    margin: 10px 20px;
+    padding: 20px;
+    border: 2px soid gray;
+    box-shadow: 10px 10px 30px gray;
+}
+.clientReviews{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+
+/* footer */
+.footer{
+    background-color: #455a6419;
+    padding: 40px 0;
+}
+h3{
+    color: #4CAF4F;
+}
+.footerNav{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0 80px;
+    padding: 10px 0;
 }
