@@ -167,6 +167,61 @@ h3{
     padding: 10px 0;
 }
 
+/* To Do App */
+.section1{
+    padding: 20px 0;
+}
+.textArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+textarea{
+    padding: 10px;
+}
+.addPlus i{
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+.todoapp{
+    display: flex;
+    justify-content: center;
+}
+.listTask{
+    
+    overflow-y: scroll;
+    height: 500px;
+}
+.listTask{
+    width: 300px;
+    margin: 30px;
+    border: 6px solid rgba(46, 139, 86, 0.411);
+    padding: 20px;
+    border-radius: 3px;
+}
+.added{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(46, 139, 86, 0.411);
+    height: 40px;
+    margin: 10px 0;
+    text-align: left;
+}
+.added p{
+    width: 85%;
+}
+span{
+    width: 15%;
+}
+
+
+/* Responsive Design */
 @media screen and (max-width:600px) {
     .homeTabInner{
         display: grid;
